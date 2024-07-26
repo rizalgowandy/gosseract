@@ -2,7 +2,7 @@
 
 [![Go Test](https://github.com/otiai10/gosseract/actions/workflows/go-ci.yml/badge.svg)](https://github.com/otiai10/gosseract/actions/workflows/go-ci.yml)
 [![Docker Test](https://github.com/otiai10/gosseract/actions/workflows/runtime-docker.yml/badge.svg)](https://github.com/otiai10/gosseract/actions/workflows/runtime-docker.yml)
-[![Vagrant Test](https://github.com/otiai10/gosseract/actions/workflows/runtime-vagrant.yml/badge.svg)](https://github.com/otiai10/gosseract/actions/workflows/runtime-vagrant.yml)
+[![BSD Test](https://github.com/otiai10/gosseract/actions/workflows/runtime-vmactions.yml/badge.svg)](https://github.com/otiai10/gosseract/actions/workflows/runtime-vmactions.yml)
 [![codecov](https://codecov.io/gh/otiai10/gosseract/branch/main/graph/badge.svg)](https://codecov.io/gh/otiai10/gosseract)
 [![Go Report Card](https://goreportcard.com/badge/github.com/otiai10/gosseract)](https://goreportcard.com/report/github.com/otiai10/gosseract)
 [![Maintainability](https://api.codeclimate.com/v1/badges/351d9027a3c517505094/maintainability)](https://codeclimate.com/github/otiai10/gosseract/maintainability)
@@ -37,12 +37,13 @@ func main() {
 }
 ```
 
-# Install
+# Installation
 
 1. [tesseract-ocr](https://github.com/tesseract-ocr/tessdoc), including library and headers
 2. `go get -t github.com/otiai10/gosseract/v2`
 
-Check [Dockerfile](https://github.com/otiai10/gosseract/blob/main/Dockerfile) for more detail of installation, or you can just try by `docker run -it --rm otiai10/gosseract`.
+Please check this [Dockerfile](https://github.com/otiai10/gosseract/blob/main/Dockerfile) to get started step-by-step.
+Or if you want the env instantly, you can just try by `docker run -it --rm otiai10/gosseract`.
 
 # Test
 
